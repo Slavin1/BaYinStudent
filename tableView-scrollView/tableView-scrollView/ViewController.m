@@ -19,6 +19,7 @@
         _tableView.delegate = self;
         _tableView.dataSource = self;
         [self.view addSubview:_tableView];
+        _tableView.backgroundColor = [UIColor redColor];
     }
     return _tableView;
 }
